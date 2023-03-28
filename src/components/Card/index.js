@@ -14,7 +14,7 @@ const Card = ({ name, price, imageUrl, description }) => {
           className={cx("container-logo")}
         ></div>
         <div className={cx("container-content")}>
-          <Grid container xs="12">
+          <Grid container>
             <Grid item xs="8">
               <span className={cx("container-content-name")}>{name}</span>
             </Grid>

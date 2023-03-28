@@ -2,10 +2,12 @@ import { Grid } from "@mui/material";
 import cn from "classnames/bind";
 import Button from "../Button";
 import styles from "./index.module.scss";
+import { useNavigate } from "react-router-dom";
 
 const cx = cn.bind(styles);
 
 const Chicago = () => {
+  const navigate = useNavigate();
   return (
     <>
       <Grid container className={cx("container")}>
@@ -19,7 +21,10 @@ const Chicago = () => {
                 We are family owned Mediterranean restaurant, focused on
                 traditional recipes reserved with a modern twist.{" "}
               </span>
-              <Button content="Reserve a table" />
+              <Button
+                content="Reserve a table"
+                onClick={() => navigate("/booking")}
+              />
             </Grid>
             <Grid item xs="3"></Grid>
             <Grid item xs="5" className={cx("container-right-container")}>

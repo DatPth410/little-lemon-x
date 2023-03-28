@@ -14,18 +14,6 @@ const Homepage = () => {
         <Nav />
         <Chicago />
         <Specials />
-
-        {/* <Grid xs="2" item></Grid>
-        <Grid xs="8" container item>
-          <Grid xs="12" item>
-          </Grid>
-          <Grid xs="12" item>
-          </Grid>
-          <Grid xs="12" item>
-            <Specials />
-          </Grid>
-        </Grid>
-        <Grid xs="2" item></Grid> */}
       </Grid>
     </>
   );

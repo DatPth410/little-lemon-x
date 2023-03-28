@@ -3,10 +3,12 @@ import styles from "./index.module.scss";
 
 const cx = cn.bind(styles);
 
-const Button = ({ content }) => {
+const Button = ({ content, onClick = undefined }) => {
   return (
     <>
-      <div className={cx("container")}>{content}</div>
+      <div className={cx("container")} onClick={onClick}>
+        {content}
+      </div>
     </>
   );
 };

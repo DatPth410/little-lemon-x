@@ -1,0 +1,13 @@
+.container {
+  font-family: "Cabin", sans-serif;
+  &-form {
+    height: calc(100vh - 50px);
+    background-color: #495e57;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &-content {
+      width: 300px;
+    }
+  }
+}
