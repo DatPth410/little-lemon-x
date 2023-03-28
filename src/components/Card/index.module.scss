@@ -1,0 +1,32 @@
+.container {
+  height: fit-content;
+  background-color: #edefee;
+  border-radius: 20px;
+  height: 440px;
+  &-logo {
+    height: 170px;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  &-content {
+    padding: 12px;
+    &-name {
+      font-weight: 500px;
+    }
+    &-price {
+      color: #ee9972;
+    }
+    &-des {
+      padding: 20px 0px;
+      height: 200px;
+      color: #333333;
+    }
+    &-deli {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.container {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  &-item {
+    font-weight: 600;
+    cursor: pointer;
+  }
+}
+
+.logo {
+  height: 40px;
+  cursor: pointer;
+}
